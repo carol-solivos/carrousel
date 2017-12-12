@@ -1,0 +1,33 @@
+* {
+	overflow-x: hidden;
+}
+
+#carrousel {
+	width: 2700px;
+	overflow: hidden;
+  position: relative; 
+  left: -1800px; 
+  padding: 0; 
+  margin: 0;
+  transition: left 2s;
+}
+
+.imgCarrousel {
+	height: 400px;
+	background-size: cover;
+	background-position: center 30%;
+	float: left;
+	width: 900px;
+}
+
+.img1 {
+	background-image: url(img/0a5787b1317ad862515fb6280554c46e.jpg);
+}
+
+.img2 {
+	background-image: url(img/88df65fccb784f22e35d8274cb2ac64f.jpg);
+}
+
+.img3 {
+	background-image: url(img/c6e7c70c3ddc238ae2e7bafe58577ad8.jpg);
+}
